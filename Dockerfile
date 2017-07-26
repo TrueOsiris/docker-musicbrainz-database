@@ -9,5 +9,3 @@ RUN git clone https://github.com/metabrainz/postgresql-musicbrainz-unaccent.git 
 RUN cd postgresql-musicbrainz-unaccent && make && make install && cd ../postgresql-musicbrainz-collate && make && make install && cd ../
 
 RUN echo "listen_addresses='*'" >> /var/lib/postgresql/data/postgresql.conf
-
-ADD create-database.sh /create-database.sh
