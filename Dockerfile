@@ -1,7 +1,7 @@
 FROM postgres:9.6
 
-RUN DEBIAN_FRONTEND=noninteractive \
- apt-get update \
+ARG DEBIAN_FRONTEND=noninteractive
+RUN apt-get update \
  && apt-get -y -q install \
    git-core \
    build-essential \
