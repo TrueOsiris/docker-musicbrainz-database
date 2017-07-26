@@ -1,6 +1,6 @@
 # Docker container for the MusicBrainz database
 
-[![Docker Hub](https://img.shields.io/badge/docker-ready-blue.svg)](https://registry.hub.docker.com/u/trueosiris/musicbrainz-database/) 
+[![Docker Hub](https://img.shields.io/badge/docker-ready-blue.svg)](https://registry.hub.docker.com/u/trueosiris/docker-musicbrainz-database/) 
 
 Forked from arey/musicbrainz-database \
 Based on https://hub.docker.com/_/postgres/ \
