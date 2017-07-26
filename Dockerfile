@@ -13,6 +13,7 @@ RUN apt-get update \
    postgresql-server-dev-9.6 \
    wget
 
+# pull musicbrainz controller files from git & install them into postgresql repo
 RUN git clone https://github.com/metabrainz/postgresql-musicbrainz-unaccent.git \
  && git clone https://github.com/metabrainz/postgresql-musicbrainz-collate.git \
  && cd postgresql-musicbrainz-unaccent \
